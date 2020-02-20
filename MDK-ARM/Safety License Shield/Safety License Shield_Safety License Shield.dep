@@ -1,0 +1,1312 @@
+Dependencies for Project 'Safety License Shield', Target 'Safety License Shield': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (startup_stm32g070xx.s)(0x5DF093DA)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32G070xx SETA 1"--list startup_stm32g070xx.lst --xref -o "safety license shield\startup_stm32g070xx.o" --depend "safety license shield\startup_stm32g070xx.d")
+F (../Core/Src/main.c)(0x5E158CCB)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\main.o" --omf_browse "safety license shield\main.crf" --depend "safety license shield\main.d")
+I (../Core/Inc/main.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x5DE071F5)
+F (../Core/Src/stm32g0xx_it.c)(0x5DE07217)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_it.o" --omf_browse "safety license shield\stm32g0xx_it.crf" --depend "safety license shield\stm32g0xx_it.d")
+I (../Core/Inc/main.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x5DE071F5)
+I (../Core/Inc/stm32g0xx_it.h)(0x5DE07217)
+F (../Core/Src/stm32g0xx_hal_msp.c)(0x5DE07218)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_msp.o" --omf_browse "safety license shield\stm32g0xx_hal_msp.crf" --depend "safety license shield\stm32g0xx_hal_msp.d")
+I (../Core/Inc/main.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_gpio.o" --omf_browse "safety license shield\stm32g0xx_hal_gpio.crf" --depend "safety license shield\stm32g0xx_hal_gpio.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_tim.o" --omf_browse "safety license shield\stm32g0xx_hal_tim.crf" --depend "safety license shield\stm32g0xx_hal_tim.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_tim_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_tim_ex.crf" --depend "safety license shield\stm32g0xx_hal_tim_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_uart.o" --omf_browse "safety license shield\stm32g0xx_hal_uart.crf" --depend "safety license shield\stm32g0xx_hal_uart.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_uart_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_uart_ex.crf" --depend "safety license shield\stm32g0xx_hal_uart_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_rcc.o" --omf_browse "safety license shield\stm32g0xx_hal_rcc.crf" --depend "safety license shield\stm32g0xx_hal_rcc.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_rcc_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_rcc_ex.crf" --depend "safety license shield\stm32g0xx_hal_rcc_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_ll_rcc.o" --omf_browse "safety license shield\stm32g0xx_ll_rcc.crf" --depend "safety license shield\stm32g0xx_ll_rcc.d")
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_flash.o" --omf_browse "safety license shield\stm32g0xx_hal_flash.crf" --depend "safety license shield\stm32g0xx_hal_flash.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_flash_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_flash_ex.crf" --depend "safety license shield\stm32g0xx_hal_flash_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_dma.o" --omf_browse "safety license shield\stm32g0xx_hal_dma.crf" --depend "safety license shield\stm32g0xx_hal_dma.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_dma_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_dma_ex.crf" --depend "safety license shield\stm32g0xx_hal_dma_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_pwr.o" --omf_browse "safety license shield\stm32g0xx_hal_pwr.crf" --depend "safety license shield\stm32g0xx_hal_pwr.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_pwr_ex.o" --omf_browse "safety license shield\stm32g0xx_hal_pwr_ex.crf" --depend "safety license shield\stm32g0xx_hal_pwr_ex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_cortex.o" --omf_browse "safety license shield\stm32g0xx_hal_cortex.crf" --depend "safety license shield\stm32g0xx_hal_cortex.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal.o" --omf_browse "safety license shield\stm32g0xx_hal.crf" --depend "safety license shield\stm32g0xx_hal.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c)(0x5DE071F5)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\stm32g0xx_hal_exti.o" --omf_browse "safety license shield\stm32g0xx_hal_exti.crf" --depend "safety license shield\stm32g0xx_hal_exti.d")
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (../Core/Src/system_stm32g0xx.c)(0x5DE071EA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\system_stm32g0xx.o" --omf_browse "safety license shield\system_stm32g0xx.crf" --depend "safety license shield\system_stm32g0xx.d")
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+F (..\sissdk\sissdk_api.h)(0x5DEE2694)()
+F (..\sissdk\aes\sissdk_aes.h)(0x5DEE1911)()
+F (..\sissdk\crc\sissdk_crc.h)(0x5DEE0CC5)()
+F (..\sissdk\ecdsa\sissdk_ecdsa.h)(0x5E05CFBB)()
+F (..\sissdk\sissdk_benchmark.h)(0x5DF09FA4)()
+F (..\sissdk\sissdk_utils.h)(0x5DF09FD5)()
+F (..\sissdk\sissdk_api.c)(0x5DE0B1C8)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_api.o" --omf_browse "safety license shield\sissdk_api.crf" --depend "safety license shield\sissdk_api.d")
+I (..\sissdk\sissdk_api.h)(0x5DEE2694)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/crc/sissdk_crc.h)(0x5DEE0CC5)
+I (../sissdk/aes/sissdk_aes.h)(0x5DEE1911)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/ecdsa/sissdk_ecdsa.h)(0x5E05CFBB)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ctr_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecdsa.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (..\sissdk\sissdk_benchmark.h)(0x5DF09FA4)
+I (..\sissdk\sissdk_utils.h)(0x5DF09FD5)
+F (..\sissdk\sissdk_benchmark.c)(0x5E158F04)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_benchmark.o" --omf_browse "safety license shield\sissdk_benchmark.crf" --depend "safety license shield\sissdk_benchmark.d")
+I (..\sissdk\sissdk_api.h)(0x5DEE2694)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/crc/sissdk_crc.h)(0x5DEE0CC5)
+I (../sissdk/aes/sissdk_aes.h)(0x5DEE1911)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/ecdsa/sissdk_ecdsa.h)(0x5E05CFBB)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ctr_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecdsa.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (..\sissdk\sissdk_benchmark.h)(0x5DF09FA4)
+I (..\sissdk\sissdk_utils.h)(0x5DF09FD5)
+F (..\sissdk\aes\sissdk_aes.c)(0x5DEE1910)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_aes.o" --omf_browse "safety license shield\sissdk_aes.crf" --depend "safety license shield\sissdk_aes.d")
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\sissdk\aes\sissdk_aes.h)(0x5DEE1911)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+F (..\sissdk\crc\sissdk_crc16.c)(0x5DEE0B49)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_crc16.o" --omf_browse "safety license shield\sissdk_crc16.crf" --depend "safety license shield\sissdk_crc16.d")
+I (..\sissdk\crc\sissdk_crc.h)(0x5DEE0CC5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (..\sissdk\crc\sissdk_crc32.c)(0x5DEE0A07)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_crc32.o" --omf_browse "safety license shield\sissdk_crc32.crf" --depend "safety license shield\sissdk_crc32.d")
+I (..\sissdk\crc\sissdk_crc.h)(0x5DEE0CC5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (..\sissdk\ecdsa\sissdk_ecdsa.c)(0x5E05CF6E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_ecdsa.o" --omf_browse "safety license shield\sissdk_ecdsa.crf" --depend "safety license shield\sissdk_ecdsa.d")
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\sissdk\ecdsa\sissdk_ecdsa.h)(0x5E05CFBB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ctr_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (../sissdk/mbedtls/ecdsa.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (../sissdk/sissdk_utils.h)(0x5DF09FD5)
+F (..\sissdk\sissdk_utils.c)(0x5DF0A216)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sissdk_utils.o" --omf_browse "safety license shield\sissdk_utils.crf" --depend "safety license shield\sissdk_utils.d")
+I (..\sissdk\sissdk_utils.h)(0x5DF09FD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x5DE071F4)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x5DE07218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g070xx.h)(0x5DE071EA)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5DE071F4)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x5DE071EA)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5DE071F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x5DE071F4)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x5DE071F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x5DE071F5)
+I (..\sissdk\mbedtls/entropy.h)(0x5DEDA112)
+I (..\sissdk\mbedtls/config.h)(0x5DEF05FB)
+I (..\sissdk\mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (..\sissdk\mbedtls/sha256.h)(0x5DEDA112)
+F (..\sissdk\test\publickey_sig.s)(0x5DF08582)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32G070xx SETA 1"--list publickey_sig.lst --xref -o "safety license shield\publickey_sig.o" --depend "safety license shield\publickey_sig.d")
+I (..\sissdk\test\publickey.cert)(0x5DF0A2E2)
+I (..\sissdk\test\private.cert)(0x5DF0A2E2)
+I (..\sissdk\test\sign_hash.sig)(0x5DF0A2E2)
+I (..\sissdk\test\cpu.uid)(0x5E05CBCB)
+F (..\sissdk\mbedtls\aes.h)(0x5DEE0383)()
+F (..\sissdk\mbedtls\aesni.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\arc4.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\aria.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\asn1.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\asn1write.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\base64.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\bignum.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\blowfish.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\bn_mul.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\camellia.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ccm.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\certs.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\chacha20.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\chachapoly.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\check_config.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\cipher.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\cipher_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\cmac.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\compat-1.3.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\config.h)(0x5DEF05FB)()
+F (..\sissdk\mbedtls\ctr_drbg.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\debug.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\des.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\dhm.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ecdh.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ecdsa.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ecjpake.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ecp.h)(0x5DEDF619)()
+F (..\sissdk\mbedtls\ecp_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\entropy.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\entropy_poll.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\error.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\gcm.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\havege.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\hkdf.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\hmac_drbg.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\md.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\md_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\md2.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\md4.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\md5.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\memory_buffer_alloc.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\net.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\net_sockets.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\nist_kw.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\oid.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\padlock.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pem.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pk.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pk_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pkcs5.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pkcs11.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\pkcs12.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\platform.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\platform_time.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\platform_util.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\poly1305.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\psa_util.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ripemd160.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\rsa.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\rsa_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\sha1.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\sha256.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\sha512.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl_cache.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl_ciphersuites.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl_cookie.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl_internal.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\ssl_ticket.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\threading.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\timing.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\version.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\x509.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\x509_crl.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\x509_crt.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\x509_csr.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls\xtea.h)(0x5DEDA112)()
+F (..\sissdk\mbedtls_src\aes.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\aes.o" --omf_browse "safety license shield\aes.crf" --depend "safety license shield\aes.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (../sissdk/mbedtls/aesni.h)(0x5DEDA112)
+F (..\sissdk\mbedtls_src\aesni.c)(0x5E05CA07)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\aesni.o" --omf_browse "safety license shield\aesni.crf" --depend "safety license shield\aesni.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/aesni.h)(0x5DEDA112)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\arc4.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\arc4.o" --omf_browse "safety license shield\arc4.crf" --depend "safety license shield\arc4.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\aria.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\aria.o" --omf_browse "safety license shield\aria.crf" --depend "safety license shield\aria.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\asn1parse.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\asn1parse.o" --omf_browse "safety license shield\asn1parse.crf" --depend "safety license shield\asn1parse.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/asn1.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\asn1write.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\asn1write.o" --omf_browse "safety license shield\asn1write.crf" --depend "safety license shield\asn1write.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/asn1write.h)(0x5DEDA112)
+I (../sissdk/mbedtls/asn1.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\base64.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\base64.o" --omf_browse "safety license shield\base64.crf" --depend "safety license shield\base64.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\bignum.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\bignum.o" --omf_browse "safety license shield\bignum.crf" --depend "safety license shield\bignum.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/bn_mul.h)(0x5DEDA112)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\blowfish.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\blowfish.o" --omf_browse "safety license shield\blowfish.crf" --depend "safety license shield\blowfish.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\camellia.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\camellia.o" --omf_browse "safety license shield\camellia.crf" --depend "safety license shield\camellia.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ccm.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ccm.o" --omf_browse "safety license shield\ccm.crf" --depend "safety license shield\ccm.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\certs.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\certs.o" --omf_browse "safety license shield\certs.crf" --depend "safety license shield\certs.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/certs.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\chacha20.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\chacha20.o" --omf_browse "safety license shield\chacha20.crf" --depend "safety license shield\chacha20.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\chachapoly.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\chachapoly.o" --omf_browse "safety license shield\chachapoly.crf" --depend "safety license shield\chachapoly.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\cipher.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\cipher.o" --omf_browse "safety license shield\cipher.crf" --depend "safety license shield\cipher.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\cipher_wrap.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\cipher_wrap.o" --omf_browse "safety license shield\cipher_wrap.crf" --depend "safety license shield\cipher_wrap.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\cmac.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\cmac.o" --omf_browse "safety license shield\cmac.crf" --depend "safety license shield\cmac.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ctr_drbg.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ctr_drbg.o" --omf_browse "safety license shield\ctr_drbg.crf" --depend "safety license shield\ctr_drbg.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/ctr_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\debug.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\debug.o" --omf_browse "safety license shield\debug.crf" --depend "safety license shield\debug.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\des.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\des.o" --omf_browse "safety license shield\des.crf" --depend "safety license shield\des.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\dhm.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\dhm.o" --omf_browse "safety license shield\dhm.crf" --depend "safety license shield\dhm.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ecdh.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ecdh.o" --omf_browse "safety license shield\ecdh.crf" --depend "safety license shield\ecdh.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ecdsa.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ecdsa.o" --omf_browse "safety license shield\ecdsa.crf" --depend "safety license shield\ecdsa.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/ecdsa.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (../sissdk/mbedtls/asn1write.h)(0x5DEDA112)
+I (../sissdk/mbedtls/asn1.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/hmac_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+F (..\sissdk\mbedtls_src\ecjpake.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ecjpake.o" --omf_browse "safety license shield\ecjpake.crf" --depend "safety license shield\ecjpake.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ecp.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ecp.o" --omf_browse "safety license shield\ecp.crf" --depend "safety license shield\ecp.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/threading.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/ecp_internal.h)(0x5DEDA112)
+F (..\sissdk\mbedtls_src\ecp_curves.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ecp_curves.o" --omf_browse "safety license shield\ecp_curves.crf" --depend "safety license shield\ecp_curves.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\entropy.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\entropy.o" --omf_browse "safety license shield\entropy.crf" --depend "safety license shield\entropy.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/entropy_poll.h)(0x5DEDA112)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\entropy_poll.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\entropy_poll.o" --omf_browse "safety license shield\entropy_poll.crf" --depend "safety license shield\entropy_poll.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/entropy_poll.h)(0x5DEDA112)
+F (..\sissdk\mbedtls_src\error.c)(0x5DEDF87E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\error.o" --omf_browse "safety license shield\error.crf" --depend "safety license shield\error.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/error.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/aes.h)(0x5DEE0383)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/bignum.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ctr_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/ecp.h)(0x5DEDF619)
+I (../sissdk/mbedtls/entropy.h)(0x5DEDA112)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (../sissdk/mbedtls/hmac_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (../sissdk/mbedtls/asn1.h)(0x5DEDA112)
+F (..\sissdk\mbedtls_src\gcm.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\gcm.o" --omf_browse "safety license shield\gcm.crf" --depend "safety license shield\gcm.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\havege.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\havege.o" --omf_browse "safety license shield\havege.crf" --depend "safety license shield\havege.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\hkdf.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\hkdf.o" --omf_browse "safety license shield\hkdf.crf" --depend "safety license shield\hkdf.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\hmac_drbg.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\hmac_drbg.o" --omf_browse "safety license shield\hmac_drbg.crf" --depend "safety license shield\hmac_drbg.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/hmac_drbg.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\md.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\md.o" --omf_browse "safety license shield\md.crf" --depend "safety license shield\md.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/md_internal.h)(0x5DEDA112)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\md_wrap.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\md_wrap.o" --omf_browse "safety license shield\md_wrap.crf" --depend "safety license shield\md_wrap.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/md_internal.h)(0x5DEDA112)
+I (../sissdk/mbedtls/md.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\md2.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\md2.o" --omf_browse "safety license shield\md2.crf" --depend "safety license shield\md2.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\md4.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\md4.o" --omf_browse "safety license shield\md4.crf" --depend "safety license shield\md4.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\md5.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\md5.o" --omf_browse "safety license shield\md5.crf" --depend "safety license shield\md5.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\memory_buffer_alloc.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\memory_buffer_alloc.o" --omf_browse "safety license shield\memory_buffer_alloc.crf" --depend "safety license shield\memory_buffer_alloc.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\net_sockets.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\net_sockets.o" --omf_browse "safety license shield\net_sockets.crf" --depend "safety license shield\net_sockets.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\nist_kw.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\nist_kw.o" --omf_browse "safety license shield\nist_kw.crf" --depend "safety license shield\nist_kw.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\oid.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\oid.o" --omf_browse "safety license shield\oid.crf" --depend "safety license shield\oid.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\padlock.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\padlock.o" --omf_browse "safety license shield\padlock.crf" --depend "safety license shield\padlock.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pem.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pem.o" --omf_browse "safety license shield\pem.crf" --depend "safety license shield\pem.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pk.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pk.o" --omf_browse "safety license shield\pk.crf" --depend "safety license shield\pk.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pk_wrap.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pk_wrap.o" --omf_browse "safety license shield\pk_wrap.crf" --depend "safety license shield\pk_wrap.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pkcs5.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pkcs5.o" --omf_browse "safety license shield\pkcs5.crf" --depend "safety license shield\pkcs5.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pkcs11.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pkcs11.o" --omf_browse "safety license shield\pkcs11.crf" --depend "safety license shield\pkcs11.d")
+I (../sissdk/mbedtls/pkcs11.h)(0x5DEDA112)
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pkcs12.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pkcs12.o" --omf_browse "safety license shield\pkcs12.crf" --depend "safety license shield\pkcs12.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pkparse.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pkparse.o" --omf_browse "safety license shield\pkparse.crf" --depend "safety license shield\pkparse.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\pkwrite.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\pkwrite.o" --omf_browse "safety license shield\pkwrite.crf" --depend "safety license shield\pkwrite.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\platform.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\platform.o" --omf_browse "safety license shield\platform.crf" --depend "safety license shield\platform.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\platform_util.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\platform_util.o" --omf_browse "safety license shield\platform_util.crf" --depend "safety license shield\platform_util.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)
+I (../sissdk/mbedtls/threading.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\poly1305.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\poly1305.o" --omf_browse "safety license shield\poly1305.crf" --depend "safety license shield\poly1305.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ripemd160.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ripemd160.o" --omf_browse "safety license shield\ripemd160.crf" --depend "safety license shield\ripemd160.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\rsa.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\rsa.o" --omf_browse "safety license shield\rsa.crf" --depend "safety license shield\rsa.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\rsa_internal.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\rsa_internal.o" --omf_browse "safety license shield\rsa_internal.crf" --depend "safety license shield\rsa_internal.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\sha1.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sha1.o" --omf_browse "safety license shield\sha1.crf" --depend "safety license shield\sha1.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\sha256.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sha256.o" --omf_browse "safety license shield\sha256.crf" --depend "safety license shield\sha256.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/sha256.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../sissdk/mbedtls/platform_util.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\sha512.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\sha512.o" --omf_browse "safety license shield\sha512.crf" --depend "safety license shield\sha512.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_cache.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_cache.o" --omf_browse "safety license shield\ssl_cache.crf" --depend "safety license shield\ssl_cache.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_ciphersuites.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_ciphersuites.o" --omf_browse "safety license shield\ssl_ciphersuites.crf" --depend "safety license shield\ssl_ciphersuites.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_cli.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_cli.o" --omf_browse "safety license shield\ssl_cli.crf" --depend "safety license shield\ssl_cli.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_cookie.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_cookie.o" --omf_browse "safety license shield\ssl_cookie.crf" --depend "safety license shield\ssl_cookie.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_srv.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_srv.o" --omf_browse "safety license shield\ssl_srv.crf" --depend "safety license shield\ssl_srv.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_ticket.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_ticket.o" --omf_browse "safety license shield\ssl_ticket.crf" --depend "safety license shield\ssl_ticket.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\ssl_tls.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\ssl_tls.o" --omf_browse "safety license shield\ssl_tls.crf" --depend "safety license shield\ssl_tls.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\threading.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\threading.o" --omf_browse "safety license shield\threading.crf" --depend "safety license shield\threading.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\timing.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\timing.o" --omf_browse "safety license shield\timing.crf" --depend "safety license shield\timing.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\sissdk\mbedtls_src\version.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\version.o" --omf_browse "safety license shield\version.crf" --depend "safety license shield\version.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/version.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\version_features.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\version_features.o" --omf_browse "safety license shield\version_features.crf" --depend "safety license shield\version_features.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../sissdk/mbedtls/version.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\sissdk\mbedtls_src\x509.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509.o" --omf_browse "safety license shield\x509.crf" --depend "safety license shield\x509.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509_create.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509_create.o" --omf_browse "safety license shield\x509_create.crf" --depend "safety license shield\x509_create.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509_crl.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509_crl.o" --omf_browse "safety license shield\x509_crl.crf" --depend "safety license shield\x509_crl.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509_crt.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509_crt.o" --omf_browse "safety license shield\x509_crt.crf" --depend "safety license shield\x509_crt.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509_csr.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509_csr.o" --omf_browse "safety license shield\x509_csr.crf" --depend "safety license shield\x509_csr.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509write_crt.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509write_crt.o" --omf_browse "safety license shield\x509write_crt.crf" --depend "safety license shield\x509write_crt.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\x509write_csr.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\x509write_csr.o" --omf_browse "safety license shield\x509write_csr.crf" --depend "safety license shield\x509write_csr.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+F (..\sissdk\mbedtls_src\xtea.c)(0x5DEDA112)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../sissdk/ -I ../sissdk/aes -I ../sissdk/crc -I ../sissdk/ecdsa -I ../sissdk/mbedtls-I.\RTE\_Safety_License_Shield-IC:\Users\64217\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\64217\AppData\Local\Arm\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx -DUSE_HAL_DRIVER -DSTM32G070xx-o "safety license shield\xtea.o" --omf_browse "safety license shield\xtea.crf" --depend "safety license shield\xtea.d")
+I (../sissdk/mbedtls/config.h)(0x5DEF05FB)
+I (../sissdk/mbedtls/check_config.h)(0x5DEDA112)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5D9AD212)

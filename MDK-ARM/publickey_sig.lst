@@ -1,0 +1,199 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             LOCAL_FILE_AREA,DATA,READONLY
+    2 00000000         
+    3 00000000         ;public key
+    4 00000000                 EXPORT           PUBLICKEY_CART
+    5 00000000         PUBLICKEY_CART
+    6 00000000 01 03 00 
+              13 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 01 
+              04 E4 E9 
+              74 E3 31 
+              45 9B 5F 
+              D0 FC A7 
+              82 76 D1 
+              19 FD DF 
+              4D 83 5D 
+              14 0B 46 
+              0B 24 34 
+              1E F0 A0 
+              1D 81 9D 
+              7D AD 38 
+              99 DB 9B 
+              5F 24 52 
+              3B BD E1 
+              F0 41 09 
+              57               incbin           publickey.cert
+    7 0000004F         
+    8 0000004F         ;private key
+    9 0000004F                 EXPORT           PRIVATE_CART
+   10 0000004F         PRIVATE_CART
+   11 0000004F 01 03 00 
+              13 01 DA 
+              B6 1B A9 
+              2E CE 1D 
+              35 46 EB 
+              69 58 C3 
+              0F 23 30 
+              1A 70 08 
+              F1 B1 02 
+              63 9F 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00               incbin           private.cert
+   12 0000009E         
+   13 0000009E         ;sign cart for chip
+   14 0000009E                 EXPORT           SIGN_CART
+   15 0000009E         SIGN_CART
+   16 0000009E 30 35 02 
+              19 00 B4 
+              4A 8B 21 
+              7B BD F8 
+              DA 8C 92 
+              68 08 8B 
+              89 BC 83 
+              B2 F6 66 
+              2D F8 2E 
+              CC A6 02 
+              18 04 32 
+              92 D5 7E 
+              16 1D A6 
+              92 18 42 
+              AB B1 4D 
+              1E FC D5 
+              9A 39 2E 
+              91 BC 34 
+              E7               incbin           sign_hash.sig
+   17 000000D5         
+   18 000000D5         ;cpu uid for test
+   19 000000D5                 EXPORT           CPU_ID
+   20 000000D5         CPU_ID
+   21 000000D5 30 35 02 
+              19 20 F8 
+              FD 50 F0 
+              55 A6 B2 
+              57 83 DD 
+              61 73 64 
+              66 61 73 
+              61 73 64 
+              66 64 73 
+              62 67 64 
+              6A 6B 73 
+              66 6E 6A 
+              20 6E 6A 
+              76 63 6D 
+              6B 73 6D 
+              64 66 6D 
+              73 64 6D 
+              61 6B 6C 
+              66 6D 6C 
+              6B 6A 34 
+              33 6A 6F 
+              69 34 33 
+              32 6A 67 
+              65 77 39 
+              30 32 33 
+              34 38 75 
+              6A 6D 6B 
+              66 76 67 
+
+
+
+ARM Macro Assembler    Page 3 
+
+
+              61 3F 23 
+              42 35 34 
+              25 46 56 
+              76 78 68 
+              31 32            incbin           cpu.uid
+   22 00000137         
+   23 00000137                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
+work --depend="safety license shield\publickey_sig.d" -o"safety license shield\
+publickey_sig.o" -I.\RTE\_Safety_License_Shield -IC:\Users\64217\AppData\Local\
+Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\64217\AppData\Local\Arm
+\Packs\Keil\STM32G0xx_DFP\1.2.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include --pre
+define="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 529" --predefine
+="_RTE_ SETA 1" --predefine="STM32G070xx SETA 1" --list=publickey_sig.lst ..\si
+ssdk\test\publickey_sig.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+CPU_ID 000000D5
+
+Symbol: CPU_ID
+   Definitions
+      At line 20 in file ..\sissdk\test\publickey_sig.s
+   Uses
+      At line 19 in file ..\sissdk\test\publickey_sig.s
+Comment: CPU_ID used once
+LOCAL_FILE_AREA 00000000
+
+Symbol: LOCAL_FILE_AREA
+   Definitions
+      At line 1 in file ..\sissdk\test\publickey_sig.s
+   Uses
+      None
+Comment: LOCAL_FILE_AREA unused
+PRIVATE_CART 0000004F
+
+Symbol: PRIVATE_CART
+   Definitions
+      At line 10 in file ..\sissdk\test\publickey_sig.s
+   Uses
+      At line 9 in file ..\sissdk\test\publickey_sig.s
+Comment: PRIVATE_CART used once
+PUBLICKEY_CART 00000000
+
+Symbol: PUBLICKEY_CART
+   Definitions
+      At line 5 in file ..\sissdk\test\publickey_sig.s
+   Uses
+      At line 4 in file ..\sissdk\test\publickey_sig.s
+Comment: PUBLICKEY_CART used once
+SIGN_CART 0000009E
+
+Symbol: SIGN_CART
+   Definitions
+      At line 15 in file ..\sissdk\test\publickey_sig.s
+   Uses
+      At line 14 in file ..\sissdk\test\publickey_sig.s
+Comment: SIGN_CART used once
+5 symbols
+339 symbols in table
